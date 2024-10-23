@@ -44,6 +44,7 @@ public class BookingServiceImpl implements BookingService {
             reservation.setRoom(optionalRoom.get());
             reservation.setUser(optionalUser.get());
 
+
             // Đặt trạng thái đặt phòng
             reservation.setReservationStatus(ReservationStatus.FENDING);
 

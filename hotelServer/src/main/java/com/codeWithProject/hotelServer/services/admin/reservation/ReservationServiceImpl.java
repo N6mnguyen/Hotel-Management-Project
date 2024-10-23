@@ -21,10 +21,9 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class ReservationServiceImpl implements ReservationService {
+
     private final ReservationRepository reservationRepository;
-
     private final RoomRepository roomRepository;
-
     public static final int SEARCH_RESULT_PER_PAGE = 4;
 
 

@@ -19,4 +19,5 @@ public class RoomController {
     public ResponseEntity<?> getAvailableRooms(@PathVariable int pageNumber){
         return ResponseEntity.ok(roomService.getAvailableRooms(pageNumber));
     }
+
 }
